@@ -71,21 +71,21 @@ Closes #123"
 
 Pull Requests sind ein zentrales Element der Zusammenarbeit auf GitHub. Sie ermöglichen es, Änderungen vorzuschlagen, diese von anderen prüfen zu lassen und schließlich in das Haupt-Repository zu integrieren.
 
-### Richtlinien für Pull Requests
+### 3.1 Richtlinien für Pull Requests
 
-#### 3.1 Beschreibung des Problems und der Lösung:
+#### 3.1.1 Beschreibung des Problems und der Lösung:
 - Jede PR sollte eine klare und detaillierte Beschreibung des Problems und der vorgeschlagenen Lösung enthalten.
 - Erkläre, warum die Änderungen notwendig sind und wie sie das Problem lösen.
 
-#### 3.2 Verknüpfung von Issues:
+#### 3.1.2 Verknüpfung von Issues:
 - Verlinke relevante Issues, indem du Keywords wie Closes #123 oder Fixes #456 verwendest.
 - Dies sorgt für eine bessere Nachverfolgbarkeit und automatische Schließung der Issues bei der PR-Freigabe.
 
-#### 3.3 Dokumentation der Änderungen:
+#### 3.1.3 Dokumentation der Änderungen:
 - Liste alle Änderungen auf, die im Rahmen der PR vorgenommen wurden.
 - Verwende eine klare und verständliche Sprache.
 
-#### 3.4 Testanweisungen:
+#### 3.1.4 Testanweisungen:
 - Füge klare Anweisungen hinzu, wie die Änderungen getestet werden können.
 - Dies hilft den Reviewern, die Änderungen nachzuvollziehen und zu überprüfen.
 
@@ -107,32 +107,32 @@ It also includes minor changes to improve responsiveness.
 - Open the homepage and check the alignment of elements
 - Resize the browser window to test responsiveness
 ```
-### Best Practices für Pull Requests
+### 3.2 Best Practices für Pull Requests
 
-#### 3.5 Kleine und überschaubare PRs:
+#### 3.2.1 Kleine und überschaubare PRs:
 - Große PRs sind schwer zu überprüfen und führen eher zu Fehlern. Teile große Änderungen in kleinere, thematisch abgeschlossene PRs auf.
 
-#### 3.6 Regelmäßige und frühzeitige Reviews:
+#### 3.2.2 Regelmäßige und frühzeitige Reviews:
 - Fordere frühzeitig Feedback an, um sicherzustellen, dass die Änderungen in die richtige Richtung gehen.
 - Regelmäßige Reviews verhindern, dass sich viele Änderungen anhäufen, die dann schwer zu überprüfen sind.
 
-#### 3.7 Klare Commit-Historie:
+#### 3.2.3 Klare Commit-Historie:
 - Achte darauf, dass die Commit-Historie übersichtlich und nachvollziehbar bleibt. Nutze git rebase oder git squash um unnötige Commits zu reduzieren.
 - Jeder Commit sollte eine abgeschlossene Einheit darstellen.
 
-#### 3.8 Automatisierte Tests:
+#### 3.2.4 Automatisierte Tests:
 - Stelle sicher, dass alle relevanten automatisierten Tests erfolgreich durchlaufen, bevor du eine PR erstellst.
 - Dies reduziert die Wahrscheinlichkeit von Fehlern und spart Zeit bei der Überprüfung.
 
-#### 3.9 Konflikte frühzeitig lösen:
+#### 3.2.5 Konflikte frühzeitig lösen:
 - Ziehe regelmäßig die neuesten Änderungen des Haupt-Branches (main oder master) in deinen Feature-Branch, um Konflikte frühzeitig zu erkennen und zu lösen.
 
-### Umgang mit Konflikten in PRs
+### 3.3 Umgang mit Konflikten in PRs
 
-#### 3.10 Erkennen von Konflikten:
+#### 3.3.1 Erkennen von Konflikten:
 - GitHub meldet automatisch Konflikte bei einem Merge-Versuch. Überprüfe regelmäßig den Status deiner PRs.
 
-#### 3.11 Lösung von Konflikten:
+#### 3.3.2 Lösung von Konflikten:
 - Ziehe die neuesten Änderungen vom Haupt-Branch und löse die Konflikte lokal:
 
 ```Bash
@@ -146,7 +146,7 @@ git commit -m "Resolve merge conflicts"
 git push
 ```
 
-#### 3.12 Kommunikation im Team:
+#### 3.3.3 Kommunikation im Team:
 - Kommuniziere Konflikte frühzeitig im Team und suche gemeinsam nach Lösungen, wenn nötig.
 
 ### Beispiel für den Umgang mit Konflikten:
@@ -166,11 +166,11 @@ git push
 ### Praktische Übung:
 - Simulierte Konflikte erzeugen und gemeinsam lösen
 
-## 5. Fragerunde und Problembehandlung (5 Minuten)
+## 4. Fragerunde und Problembehandlung (5 Minuten)
 - Offene Fragen der Teilnehmer klären
 - Beispiele aus der Praxis besprechen
 
-## 6. Abschluss (5 Minuten)
+## 5. Abschluss (5 Minuten)
 ### Zusammenfassung der wichtigsten Punkte
 
 #### Eine gute Commit-Nachricht sollte:
