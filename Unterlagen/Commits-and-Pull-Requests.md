@@ -26,14 +26,13 @@ Eine gute Commit-Nachricht sollte aus einer kurzen Zusammenfassung und einer det
   - Bis zu 72 Zeichen pro Zeile
   - Erläutert, warum die Änderungen vorgenommen wurden und zusätzliche Kontextinformationen
 
-
-
 ```Bash
 Beispiel:
 git add <datei>
 git commit -m "Fix layout issue on homepage
 
-This commit resolves the misalignment of elements on the homepage by adjusting the CSS flex properties."
+This commit resolves the misalignment of elements on the homepage by adjusting the CSS flex properties.
+It also includes minor changes to improve responsiveness."
 ```
 
 ### Regelmäßige und thematisch abgeschlossene Commits:
