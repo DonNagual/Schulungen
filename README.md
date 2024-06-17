@@ -33,7 +33,7 @@ Dieses Projekt steht unter der [MIT Lizenz](./LICENSE).
 
 ## Kontakt
 
-Bei Fragen oder Anregungen können Sie sich gerne an [deine-email@example.com](mailto:deine-email@example.com) wenden.
+Bei Fragen oder Anregungen können Sie sich gerne an [@gmail.com](@gamil.com) wenden.
 
 ---
 
