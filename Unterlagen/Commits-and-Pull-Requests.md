@@ -12,7 +12,7 @@ Commit-Nachrichten sind essenziell für die Verständlichkeit und Nachvollziehba
 
 Die Commit-Nachricht sollte klar und präzise beschreiben, was und warum etwas geändert wurde. Vermeide allgemeine Nachrichten wie "Fixes" oder "Updates". Eine gute Nachricht hilft anderen Entwicklern zu verstehen, welche Änderungen vorgenommen wurden, ohne den gesamten Code durchsehen zu müssen.
 
-### 2.2 Struktur der Commit-Nachricht
+#### 2.2 Struktur der Commit-Nachricht
 
 Eine gute Commit-Nachricht sollte aus einer kurzen Zusammenfassung und einer detaillierten Beschreibung bestehen.
 
@@ -34,7 +34,7 @@ git commit -m "Fix layout issue on homepage
 This commit resolves the misalignment of elements on the homepage by adjusting the CSS flex properties.
 It also includes minor changes to improve responsiveness."
 ```
-### 2.3 Thematisch abgeschlossene Commits
+#### 2.3 Thematisch abgeschlossene Commits
 
 - Kleine und isolierte Commits:
   - Jeder Commit sollte eine abgeschlossene Einheit darstellen, die eine spezifische Änderung beinhaltet.
@@ -44,7 +44,7 @@ It also includes minor changes to improve responsiveness."
   - Regelmäßiges Committen hilft dabei, Änderungen nachzuvollziehen und reduziert das Risiko von Konflikten.
   - Es ermöglicht zudem eine einfachere Code-Überprüfung und erleichtert das Zurückrollen von Änderungen bei Bedarf.
 
-### 2.4 Verwendung von Issue-Referenzen
+#### 2.4 Verwendung von Issue-Referenzen
 
 Verlinke Commits mit den entsprechenden Issues, indem du die Issue-Nummer in der Commit-Nachricht erwähnst. Dies hilft, den Zusammenhang zwischen Änderungen und Anforderungen oder Fehlern nachzuvollziehen.
 
@@ -55,12 +55,12 @@ Implements user login, registration, and logout functionality.
 Closes #123"
 ```
 
-### 2.5 Verbesserung der Lesbarkeit
+#### 2.5 Verbesserung der Lesbarkeit
 
 - Verwende Aufzählungszeichen, wenn mehrere Punkte erläutert werden.
 - Achte auf eine saubere Formatierung und Rechtschreibung.
 
-### 2.6 Commit-Nachrichten für automatisierte Prozesse
+#### 2.6 Commit-Nachrichten für automatisierte Prozesse
 
 - Nutze spezifische Schlüsselwörter für automatisierte Prozesse (z.B. Continuous Integration), die automatisch auf bestimmte Commit-Nachrichten reagieren können.
 
@@ -68,10 +68,27 @@ Closes #123"
 [Beispiel Commits](../Materialien/Commits.md)
 
 ## 3. Erstellen und Verwalten von Pull Requests (15 Minuten)
-### Richtlinien für Pull Requests:
-- Beschreibung des Problems, der Lösung und wie die Änderungen getestet wurden
-- Verknüpfung von Issues (z.B. Closes #123)
-- Überprüfung und Diskussion im Team
+
+Pull Requests sind ein zentrales Element der Zusammenarbeit auf GitHub. Sie ermöglichen es, Änderungen vorzuschlagen, diese von anderen prüfen zu lassen und schließlich in das Haupt-Repository zu integrieren.
+
+### Richtlinien für Pull Requests
+
+#### 3.1 Beschreibung des Problems und der Lösung:
+- Jede PR sollte eine klare und detaillierte Beschreibung des Problems und der vorgeschlagenen Lösung enthalten.
+- Erkläre, warum die Änderungen notwendig sind und wie sie das Problem lösen.
+
+#### 3.2 Verknüpfung von Issues:
+- Verlinke relevante Issues, indem du Keywords wie Closes #123 oder Fixes #456 verwendest.
+- Dies sorgt für eine bessere Nachverfolgbarkeit und automatische Schließung der Issues bei der PR-Freigabe.
+
+#### 3.3 Dokumentation der Änderungen:
+- Liste alle Änderungen auf, die im Rahmen der PR vorgenommen wurden.
+- Verwende eine klare und verständliche Sprache.
+
+#### 3.4 Testanweisungen:
+- Füge klare Anweisungen hinzu, wie die Änderungen getestet werden können.
+- Dies hilft den Reviewern, die Änderungen nachzuvollziehen und zu überprüfen.
+
 
 ### Beispiel für eine Pull Request Beschreibung:
 
