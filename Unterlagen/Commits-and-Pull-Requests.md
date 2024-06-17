@@ -64,7 +64,7 @@ Closes #123"
 
 - Nutze spezifische Schlüsselwörter für automatisierte Prozesse (z.B. Continuous Integration), die automatisch auf bestimmte Commit-Nachrichten reagieren können.
 
-### [Beispiel-Commits](../Materialien/Commits.md)
+###[Beispiel-Commits](../Materialien/Commits.md)
 
 ## 3. Erstellen und Verwalten von Pull Requests (15 Minuten)
 
