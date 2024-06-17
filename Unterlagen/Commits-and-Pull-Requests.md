@@ -43,8 +43,17 @@ It also includes minor changes to improve responsiveness."
 - Häufig committen:
   - Regelmäßiges Committen hilft dabei, Änderungen nachzuvollziehen und reduziert das Risiko von Konflikten.
   - Es ermöglicht zudem eine einfachere Code-Überprüfung und erleichtert das Zurückrollen von Änderungen bei Bedarf.
-  - 
 
+### d) Verwendung von Issue-Referenzen
+
+Verlinke Commits mit den entsprechenden Issues, indem du die Issue-Nummer in der Commit-Nachricht erwähnst. Dies hilft, den Zusammenhang zwischen Änderungen und Anforderungen oder Fehlern nachzuvollziehen.
+
+```Bash
+git commit -m "Add user authentication feature
+
+Implements user login, registration, and logout functionality. 
+Closes #123"
+```
 
 [Beispiel Commits](../Materialien/Commits.md)
 
