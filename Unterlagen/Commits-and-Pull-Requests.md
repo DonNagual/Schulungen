@@ -5,6 +5,8 @@
 - Ziel: Verbesserung der Commit-Qualität und effektiver Umgang mit Konflikten in Pull Requests
 
 ## 2. Best Practices für Commits (15 Minuten)
+Commit-Nachrichten sind essenziell für die Verständlichkeit und Nachvollziehbarkeit der Änderungen im Code. Gute Commit-Nachrichten erleichtern die Zusammenarbeit im Team, die Code-Überprüfung und die Fehlersuche.
+
 ### Qualität der Commit-Nachrichten:
 - Aussagekräftige und präzise Nachrichten
 - Strukturierung nach dem Muster: kurze Zusammenfassung (50 Zeichen), Leerzeile, detaillierte Beschreibung (falls nötig, 72 Zeichen pro Zeile)
