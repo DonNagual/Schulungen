@@ -1,4 +1,4 @@
-# GitHub Schulung: Commits und Pull Requests
+# GitHub: Commits und Pull Requests
 
 ## 1. Einführung und Zielsetzung (5 Minuten)
 - Vorstellung des Ablaufs und der Ziele der Schulung
