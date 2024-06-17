@@ -34,10 +34,17 @@ git commit -m "Fix layout issue on homepage
 This commit resolves the misalignment of elements on the homepage by adjusting the CSS flex properties.
 It also includes minor changes to improve responsiveness."
 ```
+### c) Thematisch abgeschlossene Commits
 
-### Regelmäßige und thematisch abgeschlossene Commits:
-- Commits sollten kleine, abgeschlossene Einheiten darstellen
-- Häufig committen, um die Änderungen nachvollziehbar zu halten
+- Kleine und isolierte Commits:
+  - Jeder Commit sollte eine abgeschlossene Einheit darstellen, die eine spezifische Änderung beinhaltet.
+  - Vermeide es, verschiedene Änderungen in einem Commit zu kombinieren.
+
+- Häufig committen:
+  - Regelmäßiges Committen hilft dabei, Änderungen nachzuvollziehen und reduziert das Risiko von Konflikten.
+  - Es ermöglicht zudem eine einfachere Code-Überprüfung und erleichtert das Zurückrollen von Änderungen bei Bedarf.
+  - 
+
 
 [Beispiel Commits](../Materialien/Commits.md)
 
