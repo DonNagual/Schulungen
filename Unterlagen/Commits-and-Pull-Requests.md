@@ -127,12 +127,16 @@ It also includes minor changes to improve responsiveness.
 #### 3.9 Konflikte frühzeitig lösen:
 - Ziehe regelmäßig die neuesten Änderungen des Haupt-Branches (main oder master) in deinen Feature-Branch, um Konflikte frühzeitig zu erkennen und zu lösen.
 
+### Umgang mit Konflikten in PRs
+
+#### 3.10 Erkennen von Konflikten:
+- GitHub meldet automatisch Konflikte bei einem Merge-Versuch. Überprüfe regelmäßig den Status deiner PRs.
+
+#### 3.11 Lösung von Konflikten:
+- Ziehe die neuesten Änderungen vom Haupt-Branch und löse die Konflikte lokal:
 
 
 
-
-### Lösung von Konflikten:
-- Schritt-für-Schritt-Anleitung zum Auflösen von Konflikten
 
 [Beispiel Konflikt](../Materialien/Pull-Request-Conflicts.md)
 
