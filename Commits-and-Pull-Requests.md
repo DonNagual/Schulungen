@@ -54,7 +54,7 @@ It also includes minor changes to improve responsiveness.
 - Regelmäßiges Pullen der neuesten Änderungen von main in den eigenen Branch
 - Kleine, häufige PRs, um Konflikte zu minimieren
 
-### Lösung von Konflikten: {#Lösung-von-Konflikten}
+### Lösung von Konflikten:
 - Schritt-für-Schritt-Anleitung zum Auflösen von Konflikten
 - [Beispiel Konflikt](Unterlagen/Konflikt.md)
 
