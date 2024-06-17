@@ -56,7 +56,7 @@ It also includes minor changes to improve responsiveness.
 
 ### Lösung von Konflikten:
 - Schritt-für-Schritt-Anleitung zum Auflösen von Konflikten
-- [Beispiel Konflikt](Unterlagen/Konflikt.md)
+- [Beispiel Konflikt](../Materialien/Pull-Request-Conflicts.md)
 
 ```Bash
 Beispiel:
