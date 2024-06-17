@@ -135,13 +135,22 @@ It also includes minor changes to improve responsiveness.
 #### 3.11 Lösung von Konflikten:
 - Ziehe die neuesten Änderungen vom Haupt-Branch und löse die Konflikte lokal:
 
-
-
-
-[Beispiel Konflikt](../Materialien/Pull-Request-Conflicts.md)
-
 ```Bash
-Beispiel:
+git checkout main
+git pull origin main
+git checkout feature/branch
+git merge main
+# Konflikte in den betroffenen Dateien lösen
+git add <konflikt-dateien>
+git commit -m "Resolve merge conflicts"
+git push
+```
+
+#### 3.12 Kommunikation im Team:
+- Kommuniziere Konflikte frühzeitig im Team und suche gemeinsam nach Lösungen, wenn nötig.
+
+### Beispiel für den Umgang mit Konflikten:
+```Bash
 git checkout main
 git pull origin main
 git checkout feature/neues-feature
@@ -151,6 +160,8 @@ git add <konflikt-dateien>
 git commit -m "Resolve merge conflicts in <dateien>"
 git push
 ```
+
+[Beispiel Konflikt](../Materialien/Pull-Request-Conflicts.md)
 
 ### Praktische Übung:
 - Simulierte Konflikte erzeugen und gemeinsam lösen
@@ -169,6 +180,16 @@ git push
 - Thematisch abgeschlossen sein und kleine Änderungen umfassen
 - Issue-Referenzen enthalten
 - Lesbar und gut formatiert sein
+
+#### Eine gute PR sollte:
+- Eine klare Beschreibung des Problems und der Lösung enthalten
+- Relevante Issues verlinken
+- Dokumentation der Änderungen und Testanweisungen umfassen
+- Klein und thematisch abgeschlossen sein
+- Frühzeitig Feedback einholen
+- Eine übersichtliche Commit-Historie haben
+- Automatisierte Tests bestehen
+- Konflikte frühzeitig erkennen und lösen
 
 ### Ressourcen und weiterführende Informationen
   - Offizielle Git und GitHub Dokumentation
