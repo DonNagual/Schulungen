@@ -1,7 +1,7 @@
 # GitHub: Commits und Pull Requests
 
 ## 1. Einführung und Zielsetzung (5 Minuten)
-- Vorstellung des Ablaufs und der Ziele der Schulung
+- Vorstellung des Ablaufs und der Ziele
 - Ziel: Verbesserung der Commit-Qualität und effektiver Umgang mit Konflikten in Pull Requests
 
 ## 2. Best Practices für Commits (15 Minuten)
