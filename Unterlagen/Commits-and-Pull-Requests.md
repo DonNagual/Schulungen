@@ -8,11 +8,11 @@
 Commit-Nachrichten sind essenziell für die Verständlichkeit und Nachvollziehbarkeit der Änderungen im Code. Gute Commit-Nachrichten erleichtern die Zusammenarbeit im Team, die Code-Überprüfung und die Fehlersuche.
 
 ### Qualität der Commit-Nachrichten:
-#### a) Aussagekräftige und präzise Nachrichten
+#### 2.1 Aussagekräftige und präzise Nachrichten
 
 Die Commit-Nachricht sollte klar und präzise beschreiben, was und warum etwas geändert wurde. Vermeide allgemeine Nachrichten wie "Fixes" oder "Updates". Eine gute Nachricht hilft anderen Entwicklern zu verstehen, welche Änderungen vorgenommen wurden, ohne den gesamten Code durchsehen zu müssen.
 
-### b) Struktur der Commit-Nachricht
+### 2.2 Struktur der Commit-Nachricht
 
 Eine gute Commit-Nachricht sollte aus einer kurzen Zusammenfassung und einer detaillierten Beschreibung bestehen.
 
@@ -34,7 +34,7 @@ git commit -m "Fix layout issue on homepage
 This commit resolves the misalignment of elements on the homepage by adjusting the CSS flex properties.
 It also includes minor changes to improve responsiveness."
 ```
-### c) Thematisch abgeschlossene Commits
+### 2.3 Thematisch abgeschlossene Commits
 
 - Kleine und isolierte Commits:
   - Jeder Commit sollte eine abgeschlossene Einheit darstellen, die eine spezifische Änderung beinhaltet.
@@ -44,7 +44,7 @@ It also includes minor changes to improve responsiveness."
   - Regelmäßiges Committen hilft dabei, Änderungen nachzuvollziehen und reduziert das Risiko von Konflikten.
   - Es ermöglicht zudem eine einfachere Code-Überprüfung und erleichtert das Zurückrollen von Änderungen bei Bedarf.
 
-### d) Verwendung von Issue-Referenzen
+### 2.4 Verwendung von Issue-Referenzen
 
 Verlinke Commits mit den entsprechenden Issues, indem du die Issue-Nummer in der Commit-Nachricht erwähnst. Dies hilft, den Zusammenhang zwischen Änderungen und Anforderungen oder Fehlern nachzuvollziehen.
 
@@ -54,6 +54,16 @@ git commit -m "Add user authentication feature
 Implements user login, registration, and logout functionality. 
 Closes #123"
 ```
+
+### 2.5 Verbesserung der Lesbarkeit
+
+Verwende Aufzählungszeichen, wenn mehrere Punkte erläutert werden.
+Achte auf eine saubere Formatierung und Rechtschreibung.
+
+### 2.6 Commit-Nachrichten für automatisierte Prozesse
+
+Nutze spezifische Schlüsselwörter für automatisierte Prozesse (z.B. Continuous Integration), die automatisch auf bestimmte Commit-Nachrichten reagieren können.
+
 
 [Beispiel Commits](../Materialien/Commits.md)
 
