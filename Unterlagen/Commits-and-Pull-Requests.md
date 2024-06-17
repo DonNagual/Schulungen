@@ -57,12 +57,12 @@ Closes #123"
 
 ### 2.5 Verbesserung der Lesbarkeit
 
-Verwende Aufzählungszeichen, wenn mehrere Punkte erläutert werden.
-Achte auf eine saubere Formatierung und Rechtschreibung.
+- Verwende Aufzählungszeichen, wenn mehrere Punkte erläutert werden.
+- Achte auf eine saubere Formatierung und Rechtschreibung.
 
 ### 2.6 Commit-Nachrichten für automatisierte Prozesse
 
-Nutze spezifische Schlüsselwörter für automatisierte Prozesse (z.B. Continuous Integration), die automatisch auf bestimmte Commit-Nachrichten reagieren können.
+- Nutze spezifische Schlüsselwörter für automatisierte Prozesse (z.B. Continuous Integration), die automatisch auf bestimmte Commit-Nachrichten reagieren können.
 
 
 [Beispiel Commits](../Materialien/Commits.md)
