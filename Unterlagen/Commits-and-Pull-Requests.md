@@ -8,14 +8,25 @@
 Commit-Nachrichten sind essenziell für die Verständlichkeit und Nachvollziehbarkeit der Änderungen im Code. Gute Commit-Nachrichten erleichtern die Zusammenarbeit im Team, die Code-Überprüfung und die Fehlersuche.
 
 ### Qualität der Commit-Nachrichten:
-#### 1. Aussagekräftige und präzise Nachrichten
+#### a) Aussagekräftige und präzise Nachrichten
 
 Die Commit-Nachricht sollte klar und präzise beschreiben, was und warum etwas geändert wurde. Vermeide allgemeine Nachrichten wie "Fixes" oder "Updates". Eine gute Nachricht hilft anderen Entwicklern zu verstehen, welche Änderungen vorgenommen wurden, ohne den gesamten Code durchsehen zu müssen.
 
+### b) Struktur der Commit-Nachricht
 
-- Aussagekräftige und präzise Nachrichten
-- Strukturierung nach dem Muster: kurze Zusammenfassung (50 Zeichen), Leerzeile, detaillierte Beschreibung (falls nötig, 72 Zeichen pro Zeile)
-- Vermeidung von Nachrichten wie "Fixes" oder "Update"
+Eine gute Commit-Nachricht sollte aus einer kurzen Zusammenfassung und einer detaillierten Beschreibung bestehen.
+
+- Kurze Zusammenfassung:
+  - Maximal 50 Zeichen
+  - Verwendet den Imperativmodus (z.B. "Add", "Fix", "Remove")
+  - Sollte auf den Punkt bringen, was der Commit bewirkt
+
+- Detaillierte Beschreibung (optional):
+  - Leerzeile nach der Zusammenfassung
+  - Bis zu 72 Zeichen pro Zeile
+  - Erläutert, warum die Änderungen vorgenommen wurden und zusätzliche Kontextinformationen
+
+
 
 ```Bash
 Beispiel:
