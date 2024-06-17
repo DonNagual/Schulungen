@@ -21,6 +21,7 @@ This commit resolves the misalignment of elements on the homepage by adjusting t
 ### Regelmäßige und thematisch abgeschlossene Commits:
 - Commits sollten kleine, abgeschlossene Einheiten darstellen
 - Häufig committen, um die Änderungen nachvollziehbar zu halten
+
 [Beispiel Commits](../Materialien/Commits.md)
 
 ## 3. Erstellen und Verwalten von Pull Requests (15 Minuten)
@@ -57,7 +58,8 @@ It also includes minor changes to improve responsiveness.
 
 ### Lösung von Konflikten:
 - Schritt-für-Schritt-Anleitung zum Auflösen von Konflikten
-- [Beispiel Konflikt](../Materialien/Pull-Request-Conflicts.md)
+
+[Beispiel Konflikt](../Materialien/Pull-Request-Conflicts.md)
 
 ```Bash
 Beispiel:
