@@ -107,15 +107,29 @@ It also includes minor changes to improve responsiveness.
 - Open the homepage and check the alignment of elements
 - Resize the browser window to test responsiveness
 ```
+### Best Practices für Pull Requests
 
-### Best Practices:
-- Kleine und überschaubare PRs erstellen
-- Regelmäßige Reviews und Feedback anfordern
+#### 3.5 Kleine und überschaubare PRs:
+- Große PRs sind schwer zu überprüfen und führen eher zu Fehlern. Teile große Änderungen in kleinere, thematisch abgeschlossene PRs auf.
 
-## 4. Umgang mit Konflikten in Pull Requests (20 Minuten)
-### Erkennen und Vermeiden von Konflikten:
-- Regelmäßiges Pullen der neuesten Änderungen von main in den eigenen Branch
-- Kleine, häufige PRs, um Konflikte zu minimieren
+#### 3.6 Regelmäßige und frühzeitige Reviews:
+- Fordere frühzeitig Feedback an, um sicherzustellen, dass die Änderungen in die richtige Richtung gehen.
+- Regelmäßige Reviews verhindern, dass sich viele Änderungen anhäufen, die dann schwer zu überprüfen sind.
+
+#### 3.7 Klare Commit-Historie:
+- Achte darauf, dass die Commit-Historie übersichtlich und nachvollziehbar bleibt. Nutze git rebase oder git squash um unnötige Commits zu reduzieren.
+- Jeder Commit sollte eine abgeschlossene Einheit darstellen.
+
+#### 3.8 Automatisierte Tests:
+- Stelle sicher, dass alle relevanten automatisierten Tests erfolgreich durchlaufen, bevor du eine PR erstellst.
+- Dies reduziert die Wahrscheinlichkeit von Fehlern und spart Zeit bei der Überprüfung.
+
+#### 3.9 Konflikte frühzeitig lösen:
+- Ziehe regelmäßig die neuesten Änderungen des Haupt-Branches (main oder master) in deinen Feature-Branch, um Konflikte frühzeitig zu erkennen und zu lösen.
+
+
+
+
 
 ### Lösung von Konflikten:
 - Schritt-für-Schritt-Anleitung zum Auflösen von Konflikten
