@@ -21,6 +21,7 @@ This commit resolves the misalignment of elements on the homepage by adjusting t
 ### Regelmäßige und thematisch abgeschlossene Commits:
 - Commits sollten kleine, abgeschlossene Einheiten darstellen
 - Häufig committen, um die Änderungen nachvollziehbar zu halten
+[Beispiel Commits](../Materialien/Commits.md)
 
 ## 3. Erstellen und Verwalten von Pull Requests (15 Minuten)
 ### Richtlinien für Pull Requests:
