@@ -200,4 +200,4 @@ git push
 ## Zusätzliche Ressourcen:
 - Pro Git Book (englisch): https://git-scm.com/book/en/v2
 - Atlassian Git Tutorials: https://www.atlassian.com/git/tutorials
-
+- So You Think You Know Git - FOSDEM 2024: https://www.youtube.com/watch?v=aolI_Rz0ZqY
