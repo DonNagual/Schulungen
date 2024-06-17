@@ -29,7 +29,7 @@ Beiträge zu diesem Repository sind willkommen. Bitte erstellen Sie einen Pull R
 
 ## Lizenz
 
-Dieses Projekt steht unter der [MIT Lizenz](./LICENSE).
+Dieses Projekt steht unter der [MIT Lizenz](/LICENSE).
 
 ## Kontakt
 
