@@ -191,13 +191,11 @@ git push
 - Automatisierte Tests bestehen
 - Konflikte frühzeitig erkennen und lösen
 
-### Ressourcen und weiterführende Informationen
-  - Offizielle Git und GitHub Dokumentation
-  - Interne Wiki-Seiten oder Tutorials
-
 ---
 
-## Zusätzliche Ressourcen:
+### Ressourcen und weiterführende Informationen
+
 - Pro Git Book (englisch): https://git-scm.com/book/en/v2
+- GitHub-Dokumentation: https://docs.github.com/de
 - Atlassian Git Tutorials: https://www.atlassian.com/git/tutorials
 - So You Think You Know Git - FOSDEM 2024: https://www.youtube.com/watch?v=aolI_Rz0ZqY
