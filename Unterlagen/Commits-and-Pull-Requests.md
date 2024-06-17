@@ -124,8 +124,17 @@ git push
 - Beispiele aus der Praxis besprechen
 
 ## 6. Abschluss (5 Minuten)
-- Zusammenfassung der wichtigsten Punkte
-- Ressourcen und weiterführende Informationen
+### Zusammenfassung der wichtigsten Punkte
+
+#### Eine gute Commit-Nachricht sollte:
+- Kurz und prägnant sein
+- Den Imperativmodus verwenden
+- Eine klare Zusammenfassung und, falls nötig, eine detaillierte Beschreibung enthalten
+- Thematisch abgeschlossen sein und kleine Änderungen umfassen
+- Issue-Referenzen enthalten
+- Lesbar und gut formatiert sein
+
+### Ressourcen und weiterführende Informationen
   - Offizielle Git und GitHub Dokumentation
   - Interne Wiki-Seiten oder Tutorials
 
