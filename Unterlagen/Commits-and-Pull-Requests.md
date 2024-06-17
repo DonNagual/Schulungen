@@ -181,7 +181,7 @@ git push
 - Issue-Referenzen enthalten
 - Lesbar und gut formatiert sein
 
-#### Eine gute PR sollte:
+#### Eine gute Pull Request sollte:
 - Eine klare Beschreibung des Problems und der Lösung enthalten
 - Relevante Issues verlinken
 - Dokumentation der Änderungen und Testanweisungen umfassen
