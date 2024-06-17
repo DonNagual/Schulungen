@@ -92,4 +92,4 @@ install(FILES dynamicLibraries/sawtooth_one.hpp DESTINATION include)
 install(FILES dynamicLibraries/sawtooth_two.hpp DESTINATION include)
 ```
 
-[zurück](./Commits-and-Pull-Requests.md#Lösung-von-Konflikten)
+[zurück](../Commits-and-Pull-Requests.md#Lösung-von-Konflikten)
