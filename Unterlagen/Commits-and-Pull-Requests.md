@@ -94,13 +94,14 @@ Pull Requests sind ein zentrales Element der Zusammenarbeit auf GitHub. Sie erm√
 
 ```Bash
 # Title: Fix Layout Issue
+
 ## Description
 This PR fixes the layout issue on the homepage by adjusting the CSS flex properties.
 It also includes minor changes to improve responsiveness.
 
 ## Changes
-- Adjusted CSS flex properties in styles.css
-- Updated HTML structure in index.html
+- Adjusted CSS flex properties in `styles.css`
+- Updated HTML structure in `index.html`
 
 ## Testing
 - Open the homepage and check the alignment of elements
