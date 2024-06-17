@@ -8,7 +8,7 @@ Willkommen zum Repository "Schulungen". Dieses Repository dient als zentrale Anl
 
 Diese Schulung behandelt die Best Practices für das Erstellen von Commits und das Verwalten von Pull Requests auf GitHub. Ziel ist es, die Qualität der Commits zu verbessern und einen effektiven Umgang mit Konflikten in Pull Requests zu ermöglichen.
 
-[Zur Schulung "Commits und Pull Requests"](./Commits-and-Pull-Requests.md)
+[Zur Schulung "Commits und Pull Requests"](/Unterlagen/Commits-and-Pull-Requests.md)
 
 ## Zielgruppe
 
